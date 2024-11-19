@@ -93,6 +93,29 @@ header h3 {
     color: black;
 }
 
+/* Mobile-Friendly Menu */
+.slicknav_menu {
+    background-color: #000; /* Black menu box */
+    border-bottom: 3px solid #931420;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slicknav_btn {
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.slicknav_nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.slicknav_nav a:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
 /* Main Content */
 main {
     padding: 10px;
