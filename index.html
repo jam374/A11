@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/c7_main.css">
     <link rel="stylesheet" href="styles/slicknav.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/slicknav.min.js"></script>
+    <script src="scripts/jquery.slicknav.min.js"></script>
 </head>
 
 <body>
@@ -76,7 +76,10 @@
     </footer>
     <script>
         $(document).ready(function() {
-            $('#nav_menu ul').slicknav();
+            $('#nav_menu').slicknav({
+                prependTo: 'header',
+                label: 'MENU',
+            });
         });
     </script>
 </body>
